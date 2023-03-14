@@ -1,6 +1,6 @@
-import {userSub} from "../test/stubs/user.stub";
+import { userSub } from "../stubs/user.stub";
 
-export const UserService = jest.fn().mockReturnValue({
+export const mcokUserService = jest.fn().mockReturnValue({
     create: jest.fn().mockResolvedValue(userSub()),
     findAll: jest.fn().mockResolvedValue([userSub()]),
     findOne: jest.fn().mockResolvedValue(userSub()),
