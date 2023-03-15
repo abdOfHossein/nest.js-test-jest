@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { UserController } from '../user.controller';
-import { UserService } from '../user.service';
+import { UserController } from '../src/modules/user/user.controller';
+import { UserService } from '../src/modules/user/user.service';
 import { createUserDto, userSub } from "./stubs/user.stub";
 import { mcokUserService } from './__mocks__/user.service';
 

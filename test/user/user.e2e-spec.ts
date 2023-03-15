@@ -3,8 +3,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import * as request from 'supertest';
 import { UserEnt } from '../src/modules/user/entities/user.entity';
-import { mcokUserDataSource } from '../src/modules/user/test/__mocks__/user.mock-datasource';
-import { mcokUserService } from '../src/modules/user/test/__mocks__/user.service';
+import { mcokUserDataSource } from './__mocks__/user.mock-datasource';
+import { mcokUserService } from './__mocks__/user.service';
 import { UserModule } from '../src/modules/user/user.module';
 import { UserService } from '../src/modules/user/user.service';
 

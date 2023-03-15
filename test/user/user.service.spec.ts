@@ -2,8 +2,8 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { UserEnt } from '../entities/user.entity';
 import { UserService } from '../user.service';
-import { createUserDto, userSub } from "./stubs/user.stub";
-import { mcokUserDataSource } from './__mocks__/user.mock-datasource';
+import { createUserDto, userSub } from "../stubs/user.stub";
+import { mcokUserDataSource } from '../../../../test/__mocks__/user.mock-datasource';
 
 // jest.mock('../user.service')
 describe('UserService', () => {
